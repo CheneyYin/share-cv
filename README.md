@@ -25,6 +25,10 @@ d----           9/22/2024  3:14 PM                src
 
 请在项目根目录下，执行如下命令。
 
+### 车流量分析
+
+[车流量分析演示视频](https://www.bilibili.com/video/BV1sVv8euESQ/)
+
 ```shell
 python .\src\traffic_analysis.py
 ```

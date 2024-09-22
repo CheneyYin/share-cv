@@ -29,4 +29,6 @@ d----           9/22/2024  3:14 PM                src
 python .\src\traffic_analysis.py
 ```
 
+## License
 
+This repository is available under the [GUN V3](https://github.com/CheneyYin/share-cv/blob/master/LICENSE).

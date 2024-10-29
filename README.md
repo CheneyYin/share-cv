@@ -33,6 +33,30 @@ d----           9/22/2024  3:14 PM                src
 python .\src\traffic_analysis.py
 ```
 
+### 车辆目标跟踪
+
+[车辆目标跟踪演示视频](https://www.bilibili.com/video/BV1Tgv8eGEK3/)
+
+```shell
+python .\src\track.py
+```
+
+### 俯卧撑监测
+
+[俯卧撑监测演示视频](https://www.bilibili.com/video/BV1sVv8euEAY/)
+
+```shell
+python .\src\pushup.py
+```
+
+### SSD Mobile Net目标跟踪
+
+[目标跟踪演示视频](https://www.xiaohongshu.com/discovery/item/6686284b000000000a0071b2?source=webshare&xhsshare=pc_web&xsec_token=ABqS51KED1BaRkHIHgU-s70nnm9X7Jtmk6WmOlqAYlo9c=&xsec_source=pc_share)
+
+```shell
+python .\src\object_detection_ssd.py
+```
+
 ## License
 
-This repository is available under the [GUN V3](https://github.com/CheneyYin/share-cv/blob/master/LICENSE).
+This repository is available under the [GNU V3](https://github.com/CheneyYin/share-cv/blob/master/LICENSE).

@@ -19,16 +19,14 @@
 # Demo Video: https://www.bilibili.com/video/BV1sVv8euESQ/
 #
 from ultralytics import YOLO, solutions
+from resources import get_sample_path, get_model_path
 import cv2
-import os
 
-model_name = 'yolov8n.pt'
-sample_name = 'chengdu_traffic.mp4'
-root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-samples_path = os.path.join(root_path, 'samples', 'videos', sample_name);
-model_path = os.path.join(root_path, 'models', model_name)
 
-cap = cv2.VideoCapture(samples_path)
+sample_path = get_sample_path('chengdu_traffic.mp4')
+model_path = get_model_path('yolov8n.pt')
+
+cap = cv2.VideoCapture(sample_path)
 # cap = cv2.VideoCapture(0)
 model = YOLO(model_path)
 assert cap.isOpened()

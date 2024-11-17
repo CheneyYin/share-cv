@@ -57,6 +57,14 @@ python .\src\pushup.py
 python .\src\object_detection_ssd.py
 ```
 
+### 姿态识别
+
+[姿态识别演示视频](https://www.bilibili.com/video/BV1x3v8erE3h)
+
+```shell
+python .\src\pose.py
+```
+
 ## License
 
 This repository is available under the [GNU V3](https://github.com/CheneyYin/share-cv/blob/master/LICENSE).
